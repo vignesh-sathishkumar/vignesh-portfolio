@@ -38,3 +38,14 @@
 .pulse{background:#5ad4b0;box-shadow:0 0 0 4px #5ad4b01d}
 .extra-heading{margin-top:32px}
 @media(prefers-reduced-motion:reduce){.metric,.btn,.skill-card,.gallery-card{transition:none!important}}
+
+/* Featured Project 02 - Inventory & Stockout Intelligence */
+.inventory-project{margin-top:0}
+.inventory-stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:20px 0 8px}
+.inventory-stat{border:1px solid #46415f;background:#26283d;border-radius:10px;padding:12px 10px;min-width:0}
+.inventory-stat strong{display:block;color:#d4c9ff;font-family:Manrope,sans-serif;font-size:19px;letter-spacing:-.4px}
+.inventory-stat span{display:block;color:#a8abc5;font-size:10px;margin-top:5px}
+.inventory-actions{display:flex;flex-wrap:wrap;gap:10px}
+.inventory-actions .btn{font-size:11px;padding:12px 13px}
+.inventory-project .project-preview img{object-fit:contain}
+@media(max-width:560px){.inventory-stat-grid{gap:6px}.inventory-stat{padding:10px 7px}.inventory-stat strong{font-size:16px}.inventory-stat span{font-size:9px}}

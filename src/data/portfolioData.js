@@ -12,7 +12,7 @@ export const portfolio = {
   summary: 'Business operations and technology professional with nearly four years of experience at Infosys supporting enterprise banking and telecom processes. Skilled in business requirements clarification, workflow analysis, reporting automation, SQL-based data validation, incident investigation and cross-functional delivery. MBA graduate with experience coordinating operational activities, improving process controls and translating business needs into practical system enhancements.',
   about: [
     'At Infosys, I worked with business stakeholders, developers and QA teams to clarify functional needs, analyze workflows, validate data and support banking and telecom applications.',
-    'I bring an MBA and a technical foundation to business analysis, operations, process improvement and cross-functional delivery. My portfolio includes a synthetic-data sales analytics dashboard built with Python and Excel.'
+    'I bring an MBA and a technical foundation to business analysis, operations, process improvement and cross-functional delivery. My portfolio includes synthetic-data sales and inventory analytics projects built with Python, Excel and SQL.'
   ],
   experience: [
     { company: 'Infosys Limited', title: 'System Engineer – Business Applications & Operations', dates: 'Feb 2022 – Jan 2026', subtitle: 'Banking and telecom', bullets: [
@@ -40,6 +40,17 @@ export const portfolio = {
     {degree:'B.Tech – Mechanical Engineering', institution:'Amrita School of Engineering, Coimbatore', dates:'2016–2020'}
   ],
   certifications: ['Infosys Certified MySQL Associate','Agile Delivery & Operational Practices (Infosys Internal)','Infosys Certified Spring REST & Microservices','Infosys Certified Java Programmer'],
+  inventoryProject: {
+    title: 'Inventory & Stockout Intelligence',
+    github: 'https://github.com/vignesh-sathishkumar/inventory-stockout-intelligence',
+    description: 'An end-to-end inventory operations analytics project using simulated retail data across eight stores and 36 products. Python-generated and validated daily records support SQL analysis of fulfillment, stockouts, estimated lost revenue, and replenishment priorities. Explore the interactive browser dashboard and documented Power BI DAX measures.',
+    tools: ['Python', 'SQL', 'Inventory KPIs', 'Interactive HTML Dashboard', 'Power BI DAX'],
+    stats: [
+      { label: 'Stores', value: '8' },
+      { label: 'Products', value: '36' },
+      { label: 'Daily records', value: '51,840' }
+    ]
+  },
   professionalProjects: [
     {name:'Core Banking Transformation – Reporting & Process Automation', description:'Supported billing information workflows, resource tracking and operational report generation; investigated data and process issues using Oracle SQL.'},
     {name:'Brand Product Parametrization – Approval Workflow Improvement', description:'Supported controlled product-change processes through role-based access, approval validations, REST integration and exception handling.'},

@@ -1,0 +1,23 @@
+PORTFOLIO PROJECT 2 UPDATE — SAFE INSTALL
+
+This ZIP is an OVERLAY, not a complete Vite project. Do not delete your existing project.
+
+1. Back up your existing vignesh-portfolio folder.
+2. Extract this ZIP.
+3. Copy the extracted src/ folder contents into the existing vignesh-portfolio/src/
+   folder and replace the matching files.
+4. Copy the extracted public/ folder contents into the existing vignesh-portfolio/public/
+   folder. KEEP your existing resume PDF and NexaCloud screenshots.
+5. From the existing vignesh-portfolio folder in VS Code PowerShell:
+      npm.cmd run build
+      npm.cmd run dev
+6. Verify Project 1 still works, Project 2 appears, the image opens, and the
+   Explore live dashboard link opens the full interactive HTML dashboard.
+7. Publish:
+      git add .
+      git commit -m "Add inventory and stockout intelligence to portfolio"
+      git push origin main
+
+This update does not change your existing package.json or other project assets.
+The dashboard uses simulated data. Power BI DAX is supplied in the separate
+inventory repository; no native Power BI .pbix is claimed.
